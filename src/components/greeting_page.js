@@ -12,18 +12,18 @@ const GreetingPage = () => {
   const { greeting, loading } = useSelector((state) => state);
   return (
     <div>
-      { loading && 
+      { loading && (
         <div>
           <h1>Loading, please wait</h1>
         </div>
-      }
-      { !loading &&
+      )}
+      { !loading && (
         <div>
           <h1>{greeting}</h1>
         </div>
-      }
+      )}
     </div>
   );
-}
+};
 
 export default GreetingPage;

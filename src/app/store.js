@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 // eslint-disable-next-line import/no-extraneous-dependencies
